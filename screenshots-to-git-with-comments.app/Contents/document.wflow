@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>330</string>
+	<string>346</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2.2</string>
+	<string>2.3</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -25,7 +25,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.1.1</string>
 				<key>AMApplication</key>
 				<array>
 					<string>システム</string>
@@ -74,7 +74,7 @@
 					<key>interactiveType</key>
 					<integer>1</integer>
 					<key>outputFilePath</key>
-					<string>~/git/screenshots/shot.png</string>
+					<string>~/git/screenshots/mizzy/shot.png</string>
 					<key>screenshotType</key>
 					<integer>1</integer>
 					<key>timedScreenshot</key>
@@ -85,7 +85,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.TakeScreenShot</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -210,17 +210,15 @@
 						<string>6</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>383.000000:1270.000000</string>
+				<string>385.500000:706.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Take Screenshot.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -237,24 +235,15 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.1</string>
+				<string>1.1.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>itemType</key>
+					<key>fileNames</key>
 					<dict/>
-					<key>predicate</key>
-					<dict/>
-					<key>searchPath</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<true/>
-						<key>variableUUIDsInMenu</key>
-						<array/>
-					</dict>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
@@ -265,82 +254,21 @@
 						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>AMSelectedInputType</key>
-				<string>com.apple.cocoa.path</string>
-				<key>AMSelectedOutputType</key>
-				<string>com.apple.cocoa.path</string>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Find Finder Items 2.action</string>
+				<string>/System/Library/Automator/Get Specified Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Finder 項目を検索</string>
+				<string>指定された Finder 項目を取得</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>itemType</key>
-					<string>com.apple.cocoa.path</string>
-					<key>predicate</key>
-					<data>
-					YnBsaXN0MDDUAQIDBAUGbm9YJHZlcnNpb25Y
-					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
-					oK8QFgcIDxQcJicpMTU6O0BESk9QVV1iZ2lV
-					JG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNh
-					dGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
-					cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2Jq
-					ZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVm
-					dEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVz
-					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
-					BIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHBy
-					ZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlO
-					U09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2A
-					BoAIXHZhbHVlRm9yS2V5OtIdCw0ogAfSKiss
-					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
-					ZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZF
-					eHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09i
-					amVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tl
-					eVBhdGiAChAKgAtUbmFtZdIqKzw9XxAcTlNL
-					ZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM+
-					PzBfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
-					ZXNzaW9uXE5TRXhwcmVzc2lvbtIqK0FCXk5T
-					TXV0YWJsZUFycmF5o0FDMFdOU0FycmF50ior
-					RUZfEBNOU0tleVBhdGhFeHByZXNzaW9upEdI
-					STBfEBNOU0tleVBhdGhFeHByZXNzaW9uXxAU
-					TlNGdW5jdGlvbkV4cHJlc3Npb25cTlNFeHBy
-					ZXNzaW9u0x1LC0xNTl8QD05TQ29uc3RhbnRW
-					YWx1ZRAAgA+AEFhzaG90LnBuZ9IqK1FSXxAZ
-					TlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNT
-					VDBfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNz
-					aW9uXE5TRXhwcmVzc2lvbtVWV1gLWVpbTFwh
-					Xk5TT3BlcmF0b3JUeXBlWE5TTmVnYXRlWk5T
-					TW9kaWZpZXJZTlNPcHRpb25zEAQIgBLSKite
-					X18QG05TRXF1YWxpdHlQcmVkaWNhdGVPcGVy
-					YXRvcqNgYTBfEBtOU0VxdWFsaXR5UHJlZGlj
-					YXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9w
-					ZXJhdG9y0iorY2RfEBVOU0NvbXBhcmlzb25Q
-					cmVkaWNhdGWjZWYwXxAVTlNDb21wYXJpc29u
-					UHJlZGljYXRlW05TUHJlZGljYXRl0iorQ2ii
-					QzDSKitqa18QE05TQ29tcG91bmRQcmVkaWNh
-					dGWjbG0wXxATTlNDb21wb3VuZFByZWRpY2F0
-					ZVtOU1ByZWRpY2F0ZV8QD05TS2V5ZWRBcmNo
-					aXZlctFwcVRyb290gAEACAARABoAIwAtADIA
-					NwBQAFYAXQBvAIkAkACSAJQAlgCbAKYAqACq
-					AKwAtQDIANwA8gD0APYA+AD6AQUBGAEnATEB
-					PQE/AUEBQwFFAUcBVAFZAVsBYAFrAXQBhwGL
-					AZ4BqwG0AbkBuwG9Ab8BxgHQAdIB1AHWAdsB
-					4AH/AgMCIgIvAjQCQwJHAk8CVAJqAm8ChQKc
-					AqkCsALCAsQCxgLIAtEC1gLyAvYDEgMfAyoD
-					OQNCA00DVwNZA1oDXANhA38DgwOhA7cDvAPU
-					A9gD8AP8BAEEBAQJBB8EIwQ5BEUEVwRaBF8A
-					AAAAAAACAQAAAAAAAAByAAAAAAAAAAAAAAAA
-					AAAEYQ==
-					</data>
-					<key>searchPath</key>
-					<string>~/git/screenshots</string>
+					<key>fileNames</key>
+					<array>
+						<string>~/git/screenshots/mizzy/shot.png</string>
+					</array>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Find_Finder_Items_2</string>
+				<string>com.apple.Automator.SpecifiedFiles</string>
 				<key>CFBundleVersion</key>
-				<string>2.1</string>
+				<string>1.1.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -350,19 +278,24 @@
 					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>Find_Finder_Items_2</string>
+				<string>SpecifiedFilesAction</string>
 				<key>IgnoresInput</key>
 				<true/>
 				<key>InputUUID</key>
-				<string>59641D68-95CC-4224-9BF5-B05ACE26939D</string>
+				<string>C0DF17A0-7579-4F25-B484-67F6ADA65ABD</string>
 				<key>Keywords</key>
-				<array/>
+				<array>
+					<string>ファイル</string>
+					<string>選択</string>
+					<string>検索</string>
+					<string>取得</string>
+				</array>
 				<key>OutputUUID</key>
-				<string>A3FF308F-2F4F-472C-A421-D70BADBF8329</string>
+				<string>0CF8F13E-86C7-4DBC-9B14-75EB04662DB0</string>
 				<key>StartAction</key>
 				<false/>
 				<key>UUID</key>
-				<string>45FB8DC1-D451-432E-8BB4-425678059E89</string>
+				<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -372,55 +305,28 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string>com.apple.cocoa.path</string>
+						<array/>
 						<key>name</key>
-						<string>itemType</string>
+						<string>fileNames</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
 						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>searchPath</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<data>
-						</data>
-						<key>name</key>
-						<string>predicate</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
 					</dict>
 				</dict>
 				<key>conversionLabel</key>
 				<integer>0</integer>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>383.000000:925.000000</string>
+				<string>385.500000:664.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -437,7 +343,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -567,7 +473,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -896,12 +802,10 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>383.000000:646.000000</string>
+				<string>385.500000:622.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -923,7 +827,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -1038,7 +942,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1367,17 +1271,15 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>383.000000:604.000000</string>
+				<string>385.500000:580.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1394,7 +1296,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.1.1</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
@@ -1407,7 +1309,12 @@
 					<key>buttonNegative</key>
 					<dict/>
 					<key>defaultAnswer</key>
-					<dict/>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>コメントを入力して下さい</string>
+						</array>
+					</dict>
 					<key>defaultMessage</key>
 					<dict>
 						<key>tokenizedValue</key>
@@ -1438,7 +1345,7 @@
 					<key>buttonNegative</key>
 					<string>キャンセル</string>
 					<key>defaultAnswer</key>
-					<string></string>
+					<string>コメントを入力して下さい</string>
 					<key>defaultMessage</key>
 					<string>コメント</string>
 					<key>requireInput</key>
@@ -1447,7 +1354,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.TextInputDialog</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -1458,6 +1365,8 @@
 				</array>
 				<key>Class Name</key>
 				<string>AMAskForTextAction</string>
+				<key>IgnoresInput</key>
+				<true/>
 				<key>InputUUID</key>
 				<string>026FB6D0-2E55-4686-9B9B-6CC6342BC39E</string>
 				<key>Keywords</key>
@@ -1543,17 +1452,15 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>383.000000:385.000000</string>
+				<string>385.500000:538.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1570,7 +1477,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0.2</string>
+				<string>2.0.3</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
@@ -1605,6 +1512,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>cd ~/git/screenshots
+git pull origin master
 git add .
 git commit -m "$1"
 git push origin master
@@ -1622,7 +1530,7 @@ git push origin master
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
 				<key>CFBundleVersion</key>
-				<string>2.0.2</string>
+				<string>2.0.3</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1719,55 +1627,53 @@ git push origin master
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>383.000000:203.000000</string>
+				<string>385.500000:496.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>07A0F403-2F43-49DF-85FA-3741E5C04B93</key>
-		<dict>
-			<key>from</key>
-			<string>45FB8DC1-D451-432E-8BB4-425678059E89 - 45FB8DC1-D451-432E-8BB4-425678059E89</string>
-			<key>to</key>
-			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
-		</dict>
-		<key>0E30C1D8-F5DF-480C-AEF7-B3F265784119</key>
-		<dict>
-			<key>from</key>
-			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
-			<key>to</key>
-			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
-		</dict>
-		<key>3964BC11-CD8D-4D60-B3F5-5F9700583596</key>
-		<dict>
-			<key>from</key>
-			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
-			<key>to</key>
-			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
-		</dict>
-		<key>512B5573-C16F-4109-A7DF-BA3D21C8260F</key>
-		<dict>
-			<key>from</key>
-			<string>369A0295-652F-4DC4-9B6A-BB81AC490414 - 369A0295-652F-4DC4-9B6A-BB81AC490414</string>
-			<key>to</key>
-			<string>45FB8DC1-D451-432E-8BB4-425678059E89 - 45FB8DC1-D451-432E-8BB4-425678059E89</string>
-		</dict>
-		<key>EE0F6E2F-05C2-4FD3-8B4D-20D4682BCCDE</key>
+		<key>086E8A75-4DF3-49C1-AEF4-BAE96BEE1CC6</key>
 		<dict>
 			<key>from</key>
 			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
 			<key>to</key>
 			<string>6BC0254B-D01C-4EC4-9A09-B64D4096C407 - 6BC0254B-D01C-4EC4-9A09-B64D4096C407</string>
+		</dict>
+		<key>568DC4AF-74EA-494D-88A9-6A97C1C19CBA</key>
+		<dict>
+			<key>from</key>
+			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
+			<key>to</key>
+			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
+		</dict>
+		<key>5BF37C8C-AE63-4D69-ABFF-86CBCC5C51CF</key>
+		<dict>
+			<key>from</key>
+			<string>369A0295-652F-4DC4-9B6A-BB81AC490414 - 369A0295-652F-4DC4-9B6A-BB81AC490414</string>
+			<key>to</key>
+			<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA - D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
+		</dict>
+		<key>D2DE9696-D573-476D-814C-06C39681AA5E</key>
+		<dict>
+			<key>from</key>
+			<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA - D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
+			<key>to</key>
+			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
+		</dict>
+		<key>E8D4A0CA-EA9E-4F0B-B10B-FEF7824D65D4</key>
+		<dict>
+			<key>from</key>
+			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
+			<key>to</key>
+			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
