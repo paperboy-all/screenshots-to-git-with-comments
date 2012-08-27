@@ -28,7 +28,7 @@
 				<string>1.1.1</string>
 				<key>AMApplication</key>
 				<array>
-					<string>システム</string>
+					<string>System</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
@@ -64,7 +64,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Take Screenshot.action</string>
 				<key>ActionName</key>
-				<string>スクリーンショットを撮る</string>
+				<string>Take Screenshot</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>captureMainMonitorOnly</key>
@@ -100,13 +100,13 @@
 				<string>E1D890DA-96F5-4375-AB7D-7B22A0922A88</string>
 				<key>Keywords</key>
 				<array>
-					<string>イメージ</string>
-					<string>写真</string>
-					<string>作成</string>
-					<string>作成</string>
-					<string>取得</string>
-					<string>新規</string>
-					<string>ファイル</string>
+					<string>Image</string>
+					<string>Photo</string>
+					<string>Create</string>
+					<string>Make</string>
+					<string>Get</string>
+					<string>New</string>
+					<string>File</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>240A8689-64A4-4224-9804-B7E0AE769558</string>
@@ -213,9 +213,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>363.500000:858.000000</string>
+				<string>309.500000:858.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Take Screenshot.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Take Screenshot.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -257,7 +257,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action</string>
 				<key>ActionName</key>
-				<string>指定された Finder 項目を取得</string>
+				<string>Get Specified Finder Items</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>fileNames</key>
@@ -285,10 +285,10 @@
 				<string>C0DF17A0-7579-4F25-B484-67F6ADA65ABD</string>
 				<key>Keywords</key>
 				<array>
-					<string>ファイル</string>
-					<string>選択</string>
-					<string>検索</string>
-					<string>取得</string>
+					<string>File</string>
+					<string>Choose</string>
+					<string>Find</string>
+					<string>Get</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>0CF8F13E-86C7-4DBC-9B14-75EB04662DB0</string>
@@ -317,9 +317,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>363.500000:567.000000</string>
+				<string>309.500000:567.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -418,7 +418,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action</string>
 				<key>ActionName</key>
-				<string>日付または時刻を追加</string>
+				<string>Add Date or Time</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -484,22 +484,22 @@
 				<string>E0EED964-49A2-4B5F-B830-0F9F61249333</string>
 				<key>Keywords</key>
 				<array>
-					<string>名前</string>
-					<string>ファイル</string>
-					<string>フォルダ</string>
-					<string>追加</string>
-					<string>番号</string>
-					<string>変更</string>
-					<string>大文字／小文字</string>
-					<string>名前を変更</string>
-					<string>日付</string>
-					<string>時間</string>
-					<string>設定</string>
-					<string>テキスト</string>
-					<string>検索</string>
-					<string>置き換える</string>
-					<string>作成</string>
-					<string>連続</string>
+					<string>Name</string>
+					<string>File</string>
+					<string>Folder</string>
+					<string>Add</string>
+					<string>Number</string>
+					<string>Change</string>
+					<string>Case</string>
+					<string>Rename</string>
+					<string>Date</string>
+					<string>Time</string>
+					<string>Set</string>
+					<string>Text</string>
+					<string>Find</string>
+					<string>Replace</string>
+					<string>Make</string>
+					<string>Sequential</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>629ACDDC-7A00-4FC1-BC75-143465EC5741</string>
@@ -801,9 +801,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>363.500000:329.000000</string>
+				<string>309.500000:329.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -887,7 +887,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action</string>
 				<key>ActionName</key>
-				<string>日付または時刻を追加</string>
+				<string>Add Date or Time</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -953,22 +953,22 @@
 				<string>115D7BCE-8DBC-42BF-A166-91F947DD9F63</string>
 				<key>Keywords</key>
 				<array>
-					<string>名前</string>
-					<string>ファイル</string>
-					<string>フォルダ</string>
-					<string>追加</string>
-					<string>番号</string>
-					<string>変更</string>
-					<string>大文字／小文字</string>
-					<string>名前を変更</string>
-					<string>日付</string>
-					<string>時間</string>
-					<string>設定</string>
-					<string>テキスト</string>
-					<string>検索</string>
-					<string>置き換える</string>
-					<string>作成</string>
-					<string>連続</string>
+					<string>Name</string>
+					<string>File</string>
+					<string>Folder</string>
+					<string>Add</string>
+					<string>Number</string>
+					<string>Change</string>
+					<string>Case</string>
+					<string>Rename</string>
+					<string>Date</string>
+					<string>Time</string>
+					<string>Set</string>
+					<string>Text</string>
+					<string>Find</string>
+					<string>Replace</string>
+					<string>Make</string>
+					<string>Sequential</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>03B3FA28-EFDC-41E5-8A5F-91D6BF07E8B7</string>
@@ -1270,9 +1270,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>363.500000:287.000000</string>
+				<string>309.500000:287.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -1296,7 +1296,7 @@
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
-					<string>テキストエディット</string>
+					<string>TextEdit</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
@@ -1333,7 +1333,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Ask for Text.action</string>
 				<key>ActionName</key>
-				<string>テキストの入力を求める</string>
+				<string>Ask for Text</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>buttonAffirmative</key>
@@ -1367,9 +1367,9 @@
 				<string>026FB6D0-2E55-4686-9B9B-6CC6342BC39E</string>
 				<key>Keywords</key>
 				<array>
-					<string>テキスト</string>
-					<string>確認</string>
-					<string>プロンプト</string>
+					<string>Text</string>
+					<string>Ask</string>
+					<string>Prompt</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>5A5A5569-57A9-4B5B-96C2-4BE4FAF68225</string>
@@ -1424,7 +1424,7 @@
 					<key>3</key>
 					<dict>
 						<key>default value</key>
-						<string>キャンセル</string>
+						<string>Cancel</string>
 						<key>name</key>
 						<string>buttonNegative</string>
 						<key>required</key>
@@ -1451,9 +1451,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>363.500000:245.000000</string>
+				<string>309.500000:245.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -1503,7 +1503,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>シェルスクリプトを実行</string>
+				<string>Run Shell Script</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
@@ -1512,7 +1512,7 @@ git pull origin master
 git add .
 git commit -m "$1"
 git push origin master
-
+echo 'https://github.com/paperboy-all/screenshots/blob/master/'`git diff --name-only HEAD~1` | pbcopy
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -1541,11 +1541,11 @@ git push origin master
 				<string>0A95D5A3-5D8B-479A-B802-289A8B41FD72</string>
 				<key>Keywords</key>
 				<array>
-					<string>シェル</string>
-					<string>スクリプト</string>
-					<string>コマンド</string>
-					<string>実行</string>
-					<string>UNIX</string>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>A5451138-CADA-4179-8D37-6AB62D5A8DAA</string>
@@ -1626,9 +1626,9 @@ git push origin master
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>363.500000:203.000000</string>
+				<string>309.500000:203.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1636,40 +1636,40 @@ git push origin master
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>090D44A2-5D11-4728-8954-2AF50086E2DA</key>
+		<key>00700197-8BDA-402C-B0C6-79593E05E976</key>
+		<dict>
+			<key>from</key>
+			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
+			<key>to</key>
+			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
+		</dict>
+		<key>045FC480-8BAD-4AA2-BFAA-8B178E9E9E2E</key>
 		<dict>
 			<key>from</key>
 			<string>369A0295-652F-4DC4-9B6A-BB81AC490414 - 369A0295-652F-4DC4-9B6A-BB81AC490414</string>
 			<key>to</key>
 			<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA - D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
 		</dict>
-		<key>09ADA10D-FD6F-462C-9192-F661BAB00F76</key>
-		<dict>
-			<key>from</key>
-			<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA - D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
-			<key>to</key>
-			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
-		</dict>
-		<key>63FCF6FC-7075-445B-9A30-ECBA78AC3DBC</key>
-		<dict>
-			<key>from</key>
-			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
-			<key>to</key>
-			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
-		</dict>
-		<key>C627E887-D4DE-4FD4-BF02-0ACACE7238A2</key>
+		<key>27E4393E-52A9-4162-9243-BB63F93EA202</key>
 		<dict>
 			<key>from</key>
 			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
 			<key>to</key>
 			<string>6BC0254B-D01C-4EC4-9A09-B64D4096C407 - 6BC0254B-D01C-4EC4-9A09-B64D4096C407</string>
 		</dict>
-		<key>F7545E4B-3762-47A2-951D-D0CF1055553A</key>
+		<key>C1D8C104-785B-4B58-81FD-31AF193A4198</key>
 		<dict>
 			<key>from</key>
-			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
+			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
 			<key>to</key>
-			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
+			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
+		</dict>
+		<key>EB2CFB2C-B602-4E7E-93DE-1116D0D43B1B</key>
+		<dict>
+			<key>from</key>
+			<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA - D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
+			<key>to</key>
+			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
