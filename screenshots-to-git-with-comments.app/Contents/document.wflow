@@ -74,7 +74,7 @@
 					<key>interactiveType</key>
 					<integer>1</integer>
 					<key>outputFilePath</key>
-					<string>~/git/screenshots/mizzy/shot.png</string>
+					<string>~/screenshots/mizzy/shot.png</string>
 					<key>screenshotType</key>
 					<integer>1</integer>
 					<key>timedScreenshot</key>
@@ -211,14 +211,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>385.500000:706.000000</string>
+				<string>363.500000:858.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Take Screenshot.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -262,7 +262,7 @@
 				<dict>
 					<key>fileNames</key>
 					<array>
-						<string>~/git/screenshots/mizzy/shot.png</string>
+						<string>~/screenshots/mizzy/shot.png</string>
 					</array>
 				</dict>
 				<key>BundleIdentifier</key>
@@ -292,8 +292,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>0CF8F13E-86C7-4DBC-9B14-75EB04662DB0</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
 				<key>UnlocalizedApplications</key>
@@ -316,17 +314,15 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>385.500000:664.000000</string>
+				<string>363.500000:567.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -805,7 +801,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>385.500000:622.000000</string>
+				<string>363.500000:329.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -1274,7 +1270,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>385.500000:580.000000</string>
+				<string>363.500000:287.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -1455,7 +1451,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>385.500000:538.000000</string>
+				<string>363.500000:245.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -1511,7 +1507,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>cd ~/git/screenshots
+					<string>cd ~/screenshots
 git pull origin master
 git add .
 git commit -m "$1"
@@ -1628,52 +1624,52 @@ git push origin master
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>385.500000:496.000000</string>
+				<string>363.500000:203.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>086E8A75-4DF3-49C1-AEF4-BAE96BEE1CC6</key>
-		<dict>
-			<key>from</key>
-			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
-			<key>to</key>
-			<string>6BC0254B-D01C-4EC4-9A09-B64D4096C407 - 6BC0254B-D01C-4EC4-9A09-B64D4096C407</string>
-		</dict>
-		<key>568DC4AF-74EA-494D-88A9-6A97C1C19CBA</key>
-		<dict>
-			<key>from</key>
-			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
-			<key>to</key>
-			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
-		</dict>
-		<key>5BF37C8C-AE63-4D69-ABFF-86CBCC5C51CF</key>
+		<key>090D44A2-5D11-4728-8954-2AF50086E2DA</key>
 		<dict>
 			<key>from</key>
 			<string>369A0295-652F-4DC4-9B6A-BB81AC490414 - 369A0295-652F-4DC4-9B6A-BB81AC490414</string>
 			<key>to</key>
 			<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA - D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
 		</dict>
-		<key>D2DE9696-D573-476D-814C-06C39681AA5E</key>
+		<key>09ADA10D-FD6F-462C-9192-F661BAB00F76</key>
 		<dict>
 			<key>from</key>
 			<string>D5B68B8D-5E73-4421-B370-0DFDADD97ACA - D5B68B8D-5E73-4421-B370-0DFDADD97ACA</string>
 			<key>to</key>
 			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
 		</dict>
-		<key>E8D4A0CA-EA9E-4F0B-B10B-FEF7824D65D4</key>
+		<key>63FCF6FC-7075-445B-9A30-ECBA78AC3DBC</key>
 		<dict>
 			<key>from</key>
 			<string>7C044F32-F19D-4C4F-A832-3272A241712A - 7C044F32-F19D-4C4F-A832-3272A241712A</string>
 			<key>to</key>
 			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
+		</dict>
+		<key>C627E887-D4DE-4FD4-BF02-0ACACE7238A2</key>
+		<dict>
+			<key>from</key>
+			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
+			<key>to</key>
+			<string>6BC0254B-D01C-4EC4-9A09-B64D4096C407 - 6BC0254B-D01C-4EC4-9A09-B64D4096C407</string>
+		</dict>
+		<key>F7545E4B-3762-47A2-951D-D0CF1055553A</key>
+		<dict>
+			<key>from</key>
+			<string>92EF87A4-88F4-4C5B-8C1E-771F3514276D - 92EF87A4-88F4-4C5B-8C1E-771F3514276D</string>
+			<key>to</key>
+			<string>2F9FF862-89B2-4B40-B0E1-0BAC44140F18 - 2F9FF862-89B2-4B40-B0E1-0BAC44140F18</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
